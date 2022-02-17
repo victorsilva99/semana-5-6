@@ -28,8 +28,8 @@ namespace CRUD.Controllers
 #region VIEW DETAILS
         public async Task<IActionResult> Details(int id)
         {
-            var getCaminhaoDetais = await _database.Caminhao.FindAsync(id);
-            return View(getCaminhaoDetais);
+            var detalhes = await _database.Caminhao.FindAsync(id);
+            return View(detalhes);
         }
         #endregion
 
