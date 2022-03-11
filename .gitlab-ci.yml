@@ -8,4 +8,4 @@ tags:
 script:
 - echo "Compilando a Solution..."
 - cd CRUD
-- 'dotnet build' 'CRUD.sln'
+- 'dotnet build' 'CRUD'
