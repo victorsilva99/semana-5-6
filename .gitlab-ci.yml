@@ -1,11 +1,14 @@
+variables:
+    SolutionName: 'CRUD.sln'
+
 stages:
 - build
 
 Application-Build:
-stage: build
-tags:
-- PrimeiroRunnerDeTeste
+    stage: build
+    tags:
+        - PrimeiroRunnerDeTeste
 script:
-- echo "Compilando a Solution..."
-- cd CRUD
-- 'dotnet build' 'CRUD'
+    - echo "Compilando a Solution..."
+    - cd CRUD
+    - 'dotnet build' '%SolutionName%'
