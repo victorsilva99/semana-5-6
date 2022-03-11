@@ -10,4 +10,4 @@ Application-Build:
         - PrimeiroRunnerDeTeste
 script:
     - echo "Compilando a Solution..."
-    - dotnet build "CRUD\CRUD.sln"
+    - 'dotnet build "CRUD\CRUD.sln"'
