@@ -1,0 +1,11 @@
+stages:
+- build
+
+Application-Build:
+stage: build
+tags:
+- PrimeiroRunnerDeTeste
+script:
+- echo "Compilando a Solution..."
+- cd CRUD
+- 'dotnet build' 'CRUD.sln'
