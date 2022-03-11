@@ -10,5 +10,4 @@ Application-Build:
         - PrimeiroRunnerDeTeste
 script:
     - echo "Compilando a Solution..."
-    - cd CRUD
     - 'dotnet build' '%SolutionName%'
