@@ -11,4 +11,4 @@ tests:
   stage: test
 
   script:
-    - 'dotnet build "CRUD\CRUD.sln"'
+    - 'dotnet test "CRUD\CRUD.sln"'
