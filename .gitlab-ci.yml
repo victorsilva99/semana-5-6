@@ -5,10 +5,10 @@ build:
   stage: build
 
   script:
-    - 'dotnet build "CRUD\CRUD.sln"'
+    - 'dotnet build "CRUD\%SolutionName%"'
 
 tests:
   stage: test
 
   script:
-    - 'dotnet test "CRUD\CRUD.sln"'
+    - 'dotnet test "CRUD\%SolutionName%"'
